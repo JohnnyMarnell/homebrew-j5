@@ -3,8 +3,9 @@ require "language/node"
 class J5Scripts < Formula
   desc "Bunch of CLI helpers, WiP"
   homepage "https://github.com/JohnnyMarnell/j5-scripts"
-  url "https://github.com/JohnnyMarnell/j5-scripts/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "36fbbf5bcb05b7a3fc8f44413e466ce50c9be3dc7603c60acb2461adc13f8cf9"
+  # url "https://github.com/JohnnyMarnell/j5-scripts/archive/refs/tags/v0.0.1.tar.gz"
+  # sha256 "36fbbf5bcb05b7a3fc8f44413e466ce50c9be3dc7603c60acb2461adc13f8cf9"
+  head "https://github.com/JohnnyMarnell/j5-scripts"
   license "MIT"
 
   depends_on "node"
